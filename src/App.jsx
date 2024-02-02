@@ -18,9 +18,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects/:projectId" element={<Prigra />} />
-        
-
+        <Route path="/projects/prigra" element={<Prigra />} />
+        <Route path="/projects/jarvis" element={<Jarvis />} />
+        <Route path="/projects/esiway" element={<EsiWay />} />
       </Routes>
     </BrowserRouter>
   );

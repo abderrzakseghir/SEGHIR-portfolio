@@ -19,6 +19,24 @@ const ProjectCard = ({
   project_link,
 }) => {
   const navigate = useNavigate();
+
+  const performAction = (index) => {
+    switch (index) {
+      case 0:
+        navigate(`/projects/prigra`);
+        break;
+      case 1:
+        navigate(`/projects/jarvis`);
+        break;
+      case 2:
+        navigate(`/projects/esiway`);
+        break;
+      default:
+        // Default action if index is not 0, 1, or 2
+        break;
+    }
+  };
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -31,23 +49,13 @@ const ProjectCard = ({
       >
         <div
           className="relative h-[210px] cursor-pointer"
-          onClick={() => navigate(`/projects/${index}`)}
+          onClick={() => performAction(index)}
         >
           <img
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           />
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
-          </div>
         </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
