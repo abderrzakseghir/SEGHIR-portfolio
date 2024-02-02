@@ -1,4 +1,4 @@
-import logo from "./logo.svg"
+import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,8 +29,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import leyna from "./leyna.png"; 
-import sba from "./sba.png"
+import leyna from "./leyna.png";
+import sba from "./sba.png";
 import elkafi from "./elkafi.png";
 import elkafigroup from "./elkafigroup.png";
 import kayakigroup from "./kayakigroup.png";
@@ -46,7 +46,7 @@ import xml from "./XML.png";
 import prigra from "./prigra.png";
 import jarvis from "./jarvisproo.png";
 import djangoo from "./djangovert.png";
-import esiway from "./esiway.png";
+import esiway from "./EsiWay.png";
 
 /*
 import image1 from  './prigra.svg'
@@ -61,8 +61,17 @@ import image9 from  './prigra_frame5.svg'
 import image10 from  './prigra_frame6.svg'
 import image11 from  './prigra_frame7.svg'*/
 export {
-  logo,idmc , prigra,esiway,
-  firebase,django,mysql,java,xml,jarvis,djangoo,
+  logo,
+  idmc,
+  prigra,
+  firebase,
+  django,
+  mysql,
+  java,
+  xml,
+  esiway,
+  jarvis,
+  djangoo,
   //image1,image2,image3,image4,image5,image6, image7,image8,image9,image10,image11,
   flutter,
   ecomgroup,
