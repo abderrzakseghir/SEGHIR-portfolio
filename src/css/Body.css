@@ -1,0 +1,178 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.my-pic{
+position:relative ;
+width: 350px !important;
+height: 350px !important;
+background-color: bisque !important;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+box-shadow: 0 0 0 rgba(232, 211, 211, 0.3), 0 0 10px rgba(224, 208, 208, 0.2) !important;
+bottom: 60px;
+}
+
+.my-pic::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(#0A161D ,#0A161D ,#0A161D,#0A161D);
+  
+
+}
+
+.my-pic span{
+    position: absolute;
+    inset: 5px;
+    border-radius: 100%;
+    z-index:1 ;
+}
+
+.my-pic img{
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+
+.def{
+  margin-top: -30px;
+}
+.port-title{
+    color: #d6d6d6 ;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.port-title p span{
+color: transparent;
+-webkit-text-stroke: 1px #d6d6d6;
+background: url(../assets/back.png);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
+font-size: 40px;
+font-weight: 550;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.port-job{
+    color: #d6d6d6;  
+    font-size: 35px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.port-job span{
+color: #096977;
+
+}
+
+.port-def {
+    color: #9da3a4;
+    font-size: 18px;
+    font-weight: 700;
+    width: 850px;
+    text-align: justify;
+}
+
+
+/* XL Devices (≥1200px and <1400px) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+
+}
+
+ /* LG Devices (≥992px and <1200px) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+
+
+ }
+
+   /* MD Devices (≥768px and <992px) */
+   @media (min-width: 768px) and (max-width: 991.98px) {
+.my-pic{
+        width: 395px !important;
+        height: 395px !important;
+        }
+
+        .port-title{
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .port-title p span{
+            font-size: 45px;
+            font-weight: 900;
+            }
+
+            .port-job{
+                font-size: 45px;
+                font-weight: 800;
+            }
+
+            .port-def {
+                font-size: 14px;
+                font-weight: 700;
+                width: 670px;
+                text-align: justify;
+            }
+   }
+
+     /* SM Devices (<768px) */
+  @media (max-width: 767.98px) {
+    .my-pic{
+        width: 300px !important;
+        height: 300px !important;
+        }
+
+        .port-title{
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        .port-title p span{
+            font-size: 22px;
+            font-weight: 900;
+            }
+
+            .port-job{
+                font-size: 22px;
+                font-weight: 800;
+            }
+
+            .port-def {
+                font-size: 13.1px;
+                font-weight: 700;
+                width: 310px;
+                text-align: justify;
+            }
+  }

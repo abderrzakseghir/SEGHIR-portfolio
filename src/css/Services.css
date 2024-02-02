@@ -1,0 +1,137 @@
+
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.services-title{
+font-size: 45px;
+font-weight: 600;
+color: #d6d6d6;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    height: 660px;
+    overflow: hidden; /* To hide any overflowing parts of the image */
+    box-shadow: 0 0 5px rgba(232, 211, 211, 0.15), 0 0 10px rgba(224, 208, 208, 0.1);
+    cursor: pointer;
+}
+
+
+
+.glass img{
+    height: 45%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.container {
+    margin-top: 100px;
+  }
+
+  .titre{
+    color: #d6d6d6 ;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: px;
+  }
+  .parag{
+    color: #9da3a4;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center ;
+  }
+
+
+  @media (min-width: 1200px) and (max-width: 1600px) {
+   
+   }
+   
+   
+   
+   /* LG Devices (≥992px and <1200px) */
+   @media (min-width: 992px) and (max-width: 1199.98px) {
+    .titre{
+        font-size: 30px;
+        font-weight: 800;
+      }
+      .parag{
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      .services-title{
+        font-size: 60px;
+        }
+
+        .card3{
+            margin-top: 50px;
+        }
+        .glass{
+            height: 620px;
+         }
+   }
+   
+   
+   
+   /* MD Devices (≥768px and <992px) */
+   @media (min-width: 768px) and (max-width: 991.98px) {
+    .services-title{
+        font-size: 48px;
+        }
+   
+        .card3{
+            margin-top: 50px;
+        }
+        
+        .titre{
+            font-size: 27px;
+            font-weight: 800;
+          }
+          .parag{
+            font-size: 19px;
+            font-weight: 500;
+          }
+   }
+   
+   
+   /* SM Devices (<768px) */
+   @media (max-width: 767.98px) {
+
+ 
+    .services-title{
+        font-size: 22px;
+        }
+    .card2{
+        margin-top: 30px;
+    }
+    .card3{
+        margin-top: 30px;
+    }
+
+    .titre{
+        font-size: 27px;
+        font-weight: 800;
+      }
+      .parag{
+        font-size: 18px;
+        font-weight: 500;
+      }
+ .glass{
+    height: 580px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+   }
+  
+ 
