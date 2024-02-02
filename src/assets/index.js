@@ -5,7 +5,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import me from "./me.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -29,7 +29,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import leyna from "./leyna.png";
+import leyna from "./leyna.svg";
 import sba from "./sba.png";
 import elkafi from "./elkafi.png";
 import elkafigroup from "./elkafigroup.png";
@@ -48,8 +48,9 @@ import jarvis from "./jarvisproo.png";
 import djangoo from "./djangovert.png";
 import esiway from "./EsiWay.png";
 
-/*
-import image1 from  './prigra.svg'
+
+import image1 from  './prigra.png'
+//import famili from  './prigra.png';
 import image2 from  './Choose Role.svg'
 import image3 from  './prigra_frame_1.svg'
 import image4 from  './prigra_frame_2.svg'
@@ -59,20 +60,27 @@ import image7 from  './prigra_frame4.svg'
 import image8 from  './encadrant_dashboard 1.svg'
 import image9 from  './prigra_frame5.svg'
 import image10 from  './prigra_frame6.svg'
-import image11 from  './prigra_frame7.svg'*/
+import image11 from  './prigra_frame7.svg'
+
+import p13 from  './p13.svg'
+
+
+
+
 export {
-  logo,
+  logo,p13,
   idmc,
   prigra,
   firebase,
   django,
   mysql,
   java,
-  xml,
+  xml,me,
   esiway,
   jarvis,
   djangoo,
-  //image1,image2,image3,image4,image5,image6, image7,image8,image9,image10,image11,
+  image1,
+  image2,image3,image4,image5,image6, image7,image8,image9,image10,image11,
   flutter,
   ecomgroup,
   backend,

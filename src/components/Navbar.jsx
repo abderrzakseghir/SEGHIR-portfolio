@@ -3,7 +3,7 @@ import { Link} from 'react-router-dom'
 
 import { styles} from '../styles'; 
 import {navLinks} from '../constants';
-import {logo,menu , close} from '../assets';
+import {logo,menu,me , close} from '../assets';
 
 import { scrollToSection } from '../utils/motion';
 
@@ -27,7 +27,7 @@ const Navbar = () => {
           window.scrollTo(0,0);
         }}
         >
-          <img src={logo} alt="logo"  className='w-[100px] h-auto object-contain'/>
+          <img src={me} alt="logo" color='red'  className='w-[100px] h-auto object-contain'/>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (

@@ -1,8 +1,9 @@
-/*import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import '../css/Familishop.css'
-import famili from '../assets/prigra_logo.svg'
+//import famili from '../assets/prigra_logo.png';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+/*
 import image1 from  '../assets/prigra.svg'
 import image2 from  '../assets/Choose Role.svg'
 import image3 from  '../assets/prigra_frame_1.svg'
@@ -14,13 +15,14 @@ import image8 from  '../assets/encadrant_dashboard 1.svg'
 import image9 from  '../assets/prigra_frame5.svg'
 import image10 from  '../assets/prigra_frame6.svg'
 import image11 from  '../assets/prigra_frame7.svg'
-
+*/
+import { image1,image2,image3,image4,image5,image6,image7,image8,image9,image10,image11,p13 } from "../assets";
 import {FaChevronCircleLeft , FaChevronCircleRight } from 'react-icons/fa'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../components/Variants';
 
-const Familishop = () => {
-    const images = [image1, image2, image3 ,image4 ,image5 ,image6 , image7 , image8 ,image9,image10,image11];
+const Prigra = () => {
+    const images = [image1, image2, image3 ,image4 ,image5 ,image6 , image7 , image8 ,image9,image10,image11,p13];
 
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
     const [animationPlayed, setAnimationPlayed] = useState(false);
@@ -80,11 +82,11 @@ Key features:
      </div>
 
      <div className='col-xxl-5 col-md-4 smforloggo   '>
-   <img src={famili} alt="" className='familishop' />
+   <img src={image1} alt="" className='familishop' />
    <div className='techno'>
      <h4>Technologies used :</h4> 
     <ul>
-        <li>Frontend : React js and Tailwind css</li>
+        <li>Frontend : React js and Tailwind css and Flutter for the mobile app </li>
         <li>Backend : Django & Firebase</li>
     </ul>
    </div>
@@ -149,4 +151,4 @@ Key features:
   )
 }
 
-export default Familishop */
+export default Prigra

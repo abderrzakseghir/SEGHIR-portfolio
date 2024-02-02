@@ -215,7 +215,7 @@ import {
         },
       ],
       image: prigra,
-      source_code_link: "https://github.com/Leyna911/kayaki.git",
+      source_code_link: "https://github.com/Mbbekkouche/PrigraProject",
       project_link:'https://kayakrenti.netlify.app/'
     },
     {

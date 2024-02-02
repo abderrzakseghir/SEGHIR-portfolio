@@ -3,18 +3,47 @@ import '../css/Familishop.css'
 import Khedmat from '../assets/jarvis_logo.svg'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import image1 from  '../assets/jarvis_1.svg'
-import image2 from  '../assets/jarvis_fram3.svg'
-import image3 from  '../assets/jarvis_frame4.svg'
-import image4 from  '../assets/jarvis_frame7.svg'
-import image5 from  '../assets/jarvis_frame6.svg'
-import image6 from  '../assets/jarvis_frame5_1.svg'
+import image1 from  '../assets/Group 53.png'
+import image2 from  '../assets/Group 54.png'
+import image3 from  '../assets/Group 55.png'
+import image4 from  '../assets/Group 56.png'
+import image5 from  '../assets/Group 190.png'
+import image6 from  '../assets/Group 192.png'
+import image7 from  '../assets/Group 193.png'
+
+import image8 from  '../assets/Group 194.png'
+
+import image9 from  '../assets/Group 195.png'
+
+import image10 from  '../assets/Group 196.png'
+
+import image11 from  '../assets/Group 197.png'
+
+import image12 from  '../assets/es01.png'
+import image13 from  '../assets/es02.png'
+import image14 from  '../assets/es03.png'
+import image15 from  '../assets/es04.png'
+import image16 from  '../assets/es05.png'
+import image18 from  '../assets/es07.png'
+import image19 from  '../assets/es08.png'
+import image20 from  '../assets/es09.png'
+import image21 from  '../assets/es10.png'
+import image22 from  '../assets/es13.png'
+import image23 from  '../assets/es14.png'
+import image24 from  '../assets/es20.png'
+import image25 from  '../assets/es21.jpg'
+
+import image26 from  '../assets/es24.png'
+
+import imagelogo from  '../assets/esilogo.png'
+
 import {FaChevronCircleLeft , FaChevronCircleRight } from 'react-icons/fa'
 import {motion} from 'framer-motion'
 import { fadeIn } from '../components/Variants';
 import '../css/Netflix.css'
-const Jarvis = () => {
-    const images = [image1, image2, image3 ,image4 ,image5 ,image6 ,];
+import { esiway } from '../assets';
+const EsiWay = () => {
+    const images = [image12,image14,image15,image16,image18,image19,image20,image21,image22,image23,image24,image25, image1, image2, image3 ,image4 ,image5 ,image6 ,image7  ,image8 ,image9 ,image10 ,image11 ,image26];
 
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
     const [animationPlayed, setAnimationPlayed] = useState(false);
@@ -60,17 +89,17 @@ const Jarvis = () => {
     <div className='container-famili'>
      <motion.div variants={fadeIn('left' ,0.3)} ref={elementRef} initial='hidden' animate={animationPlayed ? 'show' : 'hidden'} className='row projet-datails'>
      <div className='col-xxl-5 col-md-6'>
-      <h1>Jarvis </h1>
-      <p>Jarvis, a forward-thinking tech startup, empowers users to achieve their project goals within set timeframes by addressing common hurdles like motivation, overthinking, and time management. We achieve this through user behavior tracking and a sophisticated NLP model with reinforcement learning, tailoring individualized work plans. The platform offers roadmap visualization, fosters a collaborative user community, facilitates project management, provides data-driven insights, and employs push notifications to keep users on track. Jarvis is your partner in turning ambitions into successful project outcomes while optimizing your productivity.</p>
+      <h1>EsiWay </h1>
+      <p>Esiway a mobile app using Flutter to simplify school administrative tasks. 🏫 Our goal: streamline processes and make things user-friendly. As part of our collaborative effort, we leveraged Flutter Clean Architecture principales to build a seamless and efficient solution. 💡</p>
      </div>
 
      <div className='col-xxl-5 col-md-4 smforloggo   '>
-   <img src={Khedmat} alt="" className='familishop' />
+   <img src={imagelogo} alt="" className='familishop' />
    <div className='techno'>
      <h4>Technologies used :</h4> 
     <ul>
         <li>Mobile : Flutter</li>
-        <li>Backend: Node Js</li>
+        <li>Backend: Firebase</li>
     </ul>
    </div>
    
@@ -134,4 +163,4 @@ const Jarvis = () => {
   )
 }
 
-export default Jarvis
+export default EsiWay
