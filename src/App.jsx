@@ -45,7 +45,7 @@ const Home = () => {
       <section id="about">
         <About />
       </section>
-      <Tech />{" "}
+       
       <section id="work">
         {" "}
         <Works />
