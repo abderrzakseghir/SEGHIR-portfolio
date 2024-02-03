@@ -45,7 +45,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl md:w-[360px] w-[400px] "
+        className="bg-tertiary p-5 rounded-2xl md:w-[360px] w-[400px]"
       >
         <div
           className="relative h-[210px] cursor-pointer"
@@ -55,7 +55,7 @@ const ProjectCard = ({
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
-           
+            
           />
         </div>
         <div className="mt-5">

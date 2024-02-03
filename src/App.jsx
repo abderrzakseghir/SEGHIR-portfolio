@@ -54,7 +54,7 @@ const Home = () => {
 
       <div className="relative z-0">
         <section id="work">
-          {" "}
+          
           <Works /> <StarsCanvas />
         </section>
       </div>
