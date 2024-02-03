@@ -49,7 +49,7 @@ const About = () => {
           ABOUT ME
         </p>
         <h2 className={`${styles.sectionHeadText} md:w-[800px] `}>
-          Full stack  <br />  Mobile Developer &#x1F4CD;
+          Full stack | <br />  Mobile Developer &#x1F4CD;
         </h2>
       </motion.div>
 
