@@ -41,6 +41,9 @@ import image25 from "../assets/es21.jpg";
 import image26 from "../assets/es24.png";
 import { esiway } from "../assets";
 import imagelogo from "../assets/esilogo.png";
+
+  
+
 const EsiWay = () => {
   const images = [
     image12,
@@ -55,12 +58,7 @@ const EsiWay = () => {
     image23,
     image24,
     image25,
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image6,
+    
     image26,
    
    
