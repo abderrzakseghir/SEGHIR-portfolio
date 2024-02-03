@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import React, { useEffect } from "react";
+
 import {
   About,
   Contact,
@@ -18,19 +20,24 @@ function App() {
     const { pathname } = useLocation();
 
     useEffect(() => {
-      window.scrollTo(0, 0);
+      // Faire défiler la fenêtre vers le haut de la page
+      document.body.scrollIntoView({ behavior: "smooth", block: "start" });
     }, [pathname]);
 
     return null;
   }
   return (
+    
     <BrowserRouter>
+    <ScrollToTop />
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/prigra" element={<Prigra />} />
         <Route path="/projects/jarvis" element={<Jarvis />} />
         <Route path="/projects/esiway" element={<EsiWay />} />
       </Routes>
+      
     </BrowserRouter>
   );
 }
@@ -38,7 +45,9 @@ function App() {
 export default App;
 
 const Home = () => {
+  
   return (
+    
     <div className="relative z-0 bg-primary">
       <Navbar />
       <Hero />

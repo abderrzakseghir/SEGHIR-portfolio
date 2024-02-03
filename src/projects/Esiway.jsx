@@ -62,6 +62,9 @@ const EsiWay = () => {
     image5,
     image6,
     image26,
+   
+   
+    
   ];
 
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
