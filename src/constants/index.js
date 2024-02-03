@@ -146,7 +146,7 @@ import {
       points: [
         "first year student 2020-2021",
         "second year student 2021-2022",
-        "Passing the entrance exam for grandes Higher School.",
+        "Passing the entrance exam for Highers Schools.",
         "first year of second cycle 2022-2023",
       ],
     },

@@ -55,6 +55,7 @@ const ProjectCard = ({
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
+           
           />
         </div>
         <div className="mt-5">

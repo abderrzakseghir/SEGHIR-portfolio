@@ -1,99 +1,96 @@
 /* SM Devices (<768px) */
 @media (max-width: 767.98px) {
-    .container-famili{
-        padding-left: 25px;
-        padding-right: 25px;
+  .container-famili{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .projet-datails{  
+      display: contents;
+      justify-content: center;
+      padding: 10px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      border:1px solid rgba(255, 255, 255, 0.18);
       }
-      .projet-datails{  
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 20px;
-        border:1px solid rgba(255, 255, 255, 0.18);
-        }
-        .techno h4{
-            font-size: 14px;
-            margin-left: 20px;
-        }
-        
-        .techno ul{
-            list-style: none; 
-            font-size: 13px;
-        }
-        .projet-datails p{
-            margin-top: 20px;
-            font-size: 13px;
-            
-        }
-        
-        .carousel-slide{
-            padding-left: 0;
-            padding-right: 0;
-          }
-    
-          .projet-screens p{
-            font-size: 19px;
-        }
-        .projet-datails h1{
-            color: #096977;
-            font-weight: 700;
-            font-size: 28px;
-        }
-
-        .smforloggo{
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-        }
-        .techno{
-            margin-left: 30px;
-            margin-top: 40px;
-        }
-        .familishop{
-            width: 80px;
-            margin-left: 0;
-            margin-top: 19px;
-        }
-
-        .ImageSlider {
-            display: none; /* Hide the slider on small screens */
-          }
-        
-          .vertical-images {
-            display: block; /* Show the vertical images on small screens */
-          }
-
-          .image-container {
-            margin-bottom: 30px; /* Spacing between the bordered divs */
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 20px;
-            border:1px solid rgba(255, 255, 255, 0.18);
-            box-shadow: 0 0 5px rgba(232, 211, 211, 0.15), 0 0 20px rgba(224, 208, 208, 0.1);
-            height: 11%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-          }
+      .techno h4{
+          font-size: 14px;
+          margin-left: 20px;
+      }
+      
+      .techno ul{
+          list-style: none; 
+          font-size: 13px;
+      }
+      .projet-datails p{
+          margin-top: 20px;
+          font-size: 13px;
           
-          .bordered-div-n {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            padding-right: 8px;
-            padding-left: 8px;
-          }
+      }
+      
+      .carousel-slide{
+          padding-left: 0;
+          padding-right: 0;
+        }
+  
+        .projet-screens p{
+          font-size: 19px;
+      }
+      .projet-datails h1{
+          color: #096977;
+          font-weight: 700;
+          font-size: 28px;
+      }
+
+      .smforloggo{
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+      }
+      .techno{
+          margin-left: 30px;
+          margin-top: 40px;
+      }
+      .familishop{
+          width: 80px;
+          margin-left: 0;
+          margin-top: 19px;
+      }
+
+      .ImageSlider {
+          display: none; /* Hide the slider on small screens */
+        }
+      
+        .vertical-images {
+          display: block; /* Show the vertical images on small screens */
+        }
+
+        .image-container {
+          margin-bottom: 30px; /* Spacing between the bordered divs */
+          background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+          -webkit-backdrop-filter: blur(10px);
+          border-radius: 20px;
+          border:1px solid rgba(255, 255, 255, 0.18);
+          box-shadow: 0 0 5px rgba(232, 211, 211, 0.15), 0 0 20px rgba(224, 208, 208, 0.1);
+          height: 11%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           
-          .vertical-image {
-            width: 100%;
-            max-height: 100%;
-            object-fit: cover;
-            border-radius: 15px;
-          }
+        }
         
-     }
-
-
-
+        .bordered-div-n {
+          padding-top: 50px;
+          padding-bottom: 50px;
+          padding-right: 8px;
+          padding-left: 8px;
+        }
+        
+        .vertical-image {
+          width: 100%;
+          max-height: 100%;
+          object-fit: cover;
+          border-radius: 15px;
+        }
+      
+   }

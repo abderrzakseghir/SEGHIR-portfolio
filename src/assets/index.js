@@ -48,7 +48,7 @@ import jarvis from "./jarvisproo.png";
 import djangoo from "./djangovert.png";
 import esiway from "./EsiWay.png";
 
-
+import prrigralogo from "./prigra_logo4.svg";
 import image1 from  './prigra.png'
 //import famili from  './prigra.png';
 import image2 from  './Choose Role.svg'
@@ -68,7 +68,7 @@ import p13 from  './p13.svg'
 
 
 export {
-  logo,p13,
+  logo,p13,prrigralogo,
   idmc,
   prigra,
   firebase,
