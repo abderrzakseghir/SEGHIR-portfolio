@@ -41,22 +41,15 @@ const Home = () => {
   return (
     <div className="relative z-0 bg-primary">
       <Navbar />
-      <div className="relative z-0">
-        <Hero />
-        </div>
-        <div className="relative z-0">
-        <section id="about">
-          <About />
-        </section>
-        <Tech />{" "}<StarsCanvas />
-      </div>
-
-      <div className="relative z-0">
-        <section id="work">
-          {" "}
-          <Works /> <StarsCanvas />
-        </section>
-      </div>
+      <Hero />
+      <section id="about">
+        <About />
+      </section>
+      <Tech />{" "}
+      <section id="work">
+        {" "}
+        <Works />
+      </section>
       <div className="relative z-0">
         <section id="contact">
           <Contact />
