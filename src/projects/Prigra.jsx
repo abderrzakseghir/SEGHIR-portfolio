@@ -17,7 +17,8 @@ import image10 from  '../assets/prigra_frame6.svg'
 import image11 from  '../assets/prigra_frame7.svg'
 */
 import {
-  image1,prrigralogo,
+  image1,
+  prrigralogo,
   image2,
   image3,
   image4,
@@ -39,7 +40,7 @@ const Prigra = () => {
     image1,
     image2,
     image3,
-    
+
     image5,
     image6,
     image7,
@@ -63,7 +64,7 @@ const Prigra = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersection, {
       root: null,
-      rootMargin: '0px',
+      rootMargin: "0px",
       threshold: 0.2, // Adjust the threshold as needed
     });
 
@@ -95,15 +96,17 @@ const Prigra = () => {
   };
 
   return (
-    <div className='container-famili'>
+    <div className="container-famili">
       <motion.div
-        variants={fadeIn('left', 0.3)}
+        variants={fadeIn("left", 0.3)}
         ref={elementRef}
-        initial='hidden'
-        animate={animationPlayed ? 'show' : 'hidden'}
-        className='row projet-datails'
+        initial="hidden"
+        animate={animationPlayed ? "show" : "hidden"}
+        className="row projet-datails"
       >
-        <div className='col-xxl-5 col-md-6'>
+        <div className="col-xxl-5 col-md-6">
+          <img src={prrigralogo} alt="" className="familishop mb-6 h-12 md:h-40 w-12 md:w-40" />
+
           <h1>PRIGRA </h1>
           <p>
             "Prigra is a web and mobile platform designed to track and manage
@@ -119,14 +122,12 @@ const Prigra = () => {
           </p>
         </div>
 
-        <div className='col-xxl-5 col-md-4 smforloggo   '>
-          <img src={prrigralogo} alt="" className='familishop' />
-          <div className='techno'>
-            <h4>Technologies used :</h4>
+        <div className="col-xxl-5 col-md-4 smforloggo ml-0 ">
+          <div className="techno ml-0">
+            <h4 className="ml-0">Technologies used :</h4>
             <ul>
               <li>
                 Frontend : React js and Tailwind css and Flutter for the mobile
-                
               </li>
               <li>Backend : Django & Firebase</li>
             </ul>
@@ -137,11 +138,11 @@ const Prigra = () => {
       <motion.div
         variants={fadeIn('right"', 0.8)}
         ref={elementRef}
-        initial='hidden'
-        animate={animationPlayed ? 'show' : 'hidden'}
-        className='row d-flex justify-content-center mt-5'
+        initial="hidden"
+        animate={animationPlayed ? "show" : "hidden"}
+        className="row d-flex justify-content-center mt-5"
       >
-        <div className='col-xl-10 col-lg-11 col-12 projet-screens'>
+        <div className="col-xl-10 col-lg-11 col-12 projet-screens">
           <div>
             <p>Here are some project highlights : </p>
           </div>
@@ -165,7 +166,7 @@ const Prigra = () => {
                     <img
                       src={image}
                       alt={`Image ${index}`}
-                      className='sliderimages'
+                      className="sliderimages"
                     />
                   </div>
                 ))}
@@ -178,20 +179,20 @@ const Prigra = () => {
               {images.map((_, index) => (
                 <span
                   key={index}
-                  className={selectedImageIndex === index ? 'active' : ''}
+                  className={selectedImageIndex === index ? "active" : ""}
                   onClick={() => handleChangeImage(index)}
                 ></span>
               ))}
             </div>
           </div>
-          <div className='vertical-images'>
+          <div className="vertical-images">
             {images.map((image, index) => (
-              <div key={index} className='image-container'>
-                <div className='bordered-div'>
+              <div key={index} className="image-container">
+                <div className="bordered-div">
                   <img
                     src={image}
                     alt={`Image ${index}`}
-                    className='vertical-image'
+                    className="vertical-image"
                   />
                 </div>
               </div>
@@ -201,6 +202,6 @@ const Prigra = () => {
       </motion.div>
     </div>
   );
-}
+};
 
 export default Prigra;

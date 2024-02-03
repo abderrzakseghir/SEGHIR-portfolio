@@ -35,7 +35,6 @@
 
 
 .techno{
-    margin-left: 25%;
     margin-top: 40px;
     margin-left: 0%; /* Ajustez selon vos besoins */
     margin-right: 20%; /* Ajustez selon vos besoins */
@@ -240,7 +239,6 @@
       .techno h4{
         font-size: 20px;
         margin-right: 30px;
-      margin-left: 45%;
     }
     .familishop{
       width: 35%;
@@ -298,7 +296,6 @@
         }
         .techno h4{
             font-size: 14px;
-            margin-left: 20px;
         }
         
         .techno ul{
