@@ -43,18 +43,17 @@ const Home = () => {
       <Navbar />
       <div className="relative z-0">
         <Hero />
-         
-      </div>
-      <div className="relative z-0">
+        </div>
+        <div className="relative z-0">
         <section id="about">
           <About />
         </section>
-        <Tech /> <StarsCanvas />
+        <Tech />{" "}<StarsCanvas />
       </div>
 
       <div className="relative z-0">
         <section id="work">
-          
+          {" "}
           <Works /> <StarsCanvas />
         </section>
       </div>
