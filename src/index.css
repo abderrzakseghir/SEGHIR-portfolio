@@ -12,7 +12,11 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
-
+@media (max-width: 768px) {
+  .static-service {
+    position: static;
+  }
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -125,6 +129,7 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+
 
 @keyframes mulShdSpin {
   0%,
