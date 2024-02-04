@@ -48,7 +48,7 @@ const EsiWay = () => {
     image15,
     image16,
     image18,
-    
+    image25,
     image1,
     image2,
     image3,
