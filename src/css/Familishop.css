@@ -298,7 +298,7 @@
         }
         .techno h4{
             font-size: 14px;
-            margin-left: 20px;
+            margin-left: 0px;
         }
         
         .techno ul{
@@ -330,7 +330,7 @@
             align-items: center;
             justify-content: space-evenly;
             margin-right: 0%; 
-            margin-left: 20%; 
+            margin-left: 00%; 
         }
         .techno{
             margin-left: 0%;

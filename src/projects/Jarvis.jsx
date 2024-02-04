@@ -87,8 +87,8 @@ const Jarvis = () => {
           </p>
         </div>
 
-        <div className="col-md-4 offset-md-2 smforloggo">
-          <div className="techno">
+        <div className="col-md-6 ml-0">
+          <div className="techno ml-0">
             <h4>Technologies used :</h4>
             <ul>
               <li>Mobile : Flutter</li>
