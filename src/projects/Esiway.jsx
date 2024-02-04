@@ -8,8 +8,7 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../components/Variants";
 import "../css/Netflix.css";
-import image10 from "../assets/w11.png";
-
+ 
 import image11 from "../assets/Group 197.png";
 
 import image1 from "../assets/w1.svg";
@@ -18,9 +17,7 @@ import image3 from "../assets/w3.svg";
 import image4 from "../assets/w4.svg";
 import image5 from "../assets/w5.svg";
 import image6 from "../assets/w6.svg";
-import image7 from "../assets/w7.svg";
-
-import image8 from "../assets/w8.svg";
+ 
 
 import image9 from "../assets/w9.svg";
 
@@ -58,7 +55,13 @@ const EsiWay = () => {
     image23,
     image24,
     image25,
-    
+    image1,
+    image2,
+    image3,
+    image4,
+    image5,
+    image6,
+    image9,
     image26,
    
    
