@@ -36,7 +36,16 @@ const Contact = () => {
       })
   };
 
+
+  
+   
+  
   const handleSubmit =(e)=>{
+    
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all required fields.");
+      return false; // Retourne false si la validation échoue
+     }
       e.preventDefault();
       setLoading(true); 
       emailjs
@@ -68,7 +77,7 @@ const Contact = () => {
             setLoading(false); 
             console.error(error); 
 
-            alert("Ahhy, something went wrong ! Please try again. I'll wait for your message.")
+            alert("Ahh, something went wrong ! Please try again. I'll wait for your message.")
           }
         )
   }
@@ -86,7 +95,9 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          onSubmit={
+            
+            handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
